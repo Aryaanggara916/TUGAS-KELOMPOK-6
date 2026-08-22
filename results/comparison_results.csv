@@ -1,0 +1,10 @@
+database,n_records,write_time_sec,write_throughput_ops,read_time_sec,read_throughput_ops
+SQLite (SQL),100,0.0157,6382.84,0.0348,2875.98
+SQLite (SQL),1000,0.0075,132613.68,0.0325,3075.16
+SQLite (SQL),5000,0.0617,81001.31,0.0187,5333.67
+TinyDB (NoSQL),100,0.0032,30981.81,0.0043,23110.7
+TinyDB (NoSQL),1000,0.0104,95865.33,0.0285,3514.19
+TinyDB (NoSQL),5000,0.0413,121164.54,0.1894,528.1
+fakeredis (In-Memory),100,0.0132,7573.98,0.0219,4567.19
+fakeredis (In-Memory),1000,0.0831,12037.71,0.0123,8103.14
+fakeredis (In-Memory),5000,0.9434,5299.97,0.0081,12416.34
